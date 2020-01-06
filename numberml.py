@@ -11,7 +11,10 @@ from sklearn.ensemble import RandomForestClassifier
 model = RandomForestClassifier(n_estimators=1000)
 model.fit(Xtrain,ytrain)
 
-img_paths=[[0,'0.png'],[1,'1.png'],[2,'2.png'],[3,'3.png'],[4,'4.png'],
+img_paths=[[0,'0.png'],['0_v2','0_v2.png'],[1,'1.png'],[2,'2.png'],[3,'3.png'],[4,'4.png'],
+           ['5','5.png'],['6','6.png'],
+           ['6_G','6_G.png'],['6_v2','6_v2.png'],['7','7.png'],['7_G','7_G.png'],
+           ['9','9.png'],
            ['white0','white0.png'],['white1','white1.png'],['white2','white2.png'],
            ['white3','white3.png'],['white4','white4.png'],['white5','white5.png'],
            ['white6','white6.png'],['white7','white7.png'],['white8','white8.png'],
